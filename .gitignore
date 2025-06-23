@@ -1,0 +1,16 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore dbt artifacts
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/.dbt/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
